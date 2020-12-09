@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main {
+    width: 86%;
+    height: 200px;
+    margin-left: 7%;
+    margin-right: 7%; 
+    display: flex;
+    
+}
+.for-button {
+    display: flex;
+}
+.button {
+    width: 248px;
+    height: 57px;
+    margin-left: 7%;
+}
+.button:focus {
+    outline: none;
+}
+.add-delete {
+    margin: 7%;
+    margin-top: 30px;
+    width: 86%;
+    height: 420px;
+}
+.first, 
+.second, 
+.third,
+.fourth {
+    display: flex;
+    width: 100%;
+    height: 110px;
+}
+.first {
+    background-color: rgb(228, 228, 228);
+    height: 90px;
+}
+.first-one,
+.first-two,
+.first-three,
+.first-four,
+.first-five,
+.first-six,
+.first-seven,
+.first-eight {
+    width: 12.5%;
+    height: 100%;
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.first-one,
+.first-two {
+    width: 11%;
+}
+.first-three,
+.first-four,
+.first-five {
+    width: 15%;
+}
+.first-six {
+    width: 11%;
+}
+.first-seven {
+    width: 14%;
+}
+.first-eight {
+    width: 8%;
+}
+
+.second-one,
+.second-two,
+.second-three,
+.second-four,
+.second-five,
+.second-six,
+.second-seven,
+.second-eight {
+    width: 12.5%;
+    height: 100%;
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.second-one,
+.second-two {
+    width: 11%;
+}
+.second-three,
+.second-four,
+.second-five {
+    width: 15%;
+}
+.second-six {
+    width: 11%;
+}
+.second-seven {
+    width: 14%;
+}
+.second-eight {
+    width: 8%;
+    font-weight: bold;
+}
+.third-one,
+.third-two,
+.third-three,
+.third-four,
+.third-five,
+.third-six,
+.third-seven,
+.third-eight {
+    width: 12.5%;
+    height: 100%;
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.third-one,
+.third-two {
+    width: 11%;
+}
+.third-three,
+.third-four,
+.third-five {
+    width: 15%;
+}
+.third-six {
+    width: 11%;
+}
+.third-seven {
+    width: 14%;
+}
+.third-eight {
+    width: 8%;
+    font-weight: bold;
+}
+.fourth-one,
+.fourth-two,
+.fourth-three,
+.fourth-four,
+.fourth-five,
+.fourth-six,
+.fourth-seven,
+.fourth-eight {
+    width: 12.5%;
+    height: 100%;
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.fourth-one,
+.fourth-two {
+    width: 11%;
+}
+.fourth-three,
+.fourth-four,
+.fourth-five {
+    width: 15%;
+}
+.fourth-six {
+    width: 11%;
+}
+.fourth-seven {
+    width: 14%;
+}
+.fourth-eight {
+    width: 8%;
+    font-weight: bold;
+}
+.times {
+    margin-left: 18%;
+    margin-bottom: 100px;
+    width: 75%;
+    height: 240px;
+}
+.times-first,
+.times-second,
+.times-third {
+    display: flex;
+    width: 100%;
+    height: 80px; 
+}
+.times-first {
+    background-color: rgb(228, 228, 228);
+}
+.times-first-one,
+.times-first-two,
+.times-first-three,
+.times-first-four,
+.times-first-five,
+.times-first-six,
+.times-first-seven {
+    width: 14.3%;
+    height: 100%;
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.times-second-one,
+.times-second-two,
+.times-second-three,
+.times-second-four,
+.times-second-five,
+.times-second-six,
+.times-second-seven {
+    width: 14.3%;
+    height: 100%;
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.times-third-one,
+.times-third-two,
+.times-third-three,
+.times-third-four,
+.times-third-five,
+.times-third-six,
+.times-third-seven {
+    width: 14.3%;
+    height: 100%;
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-infos {
+    width: 50%;
+    height: 100px;
+    margin-top: 5%;
+}
+.main-logo {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.logo-blue {
+    font-size: 36px;
+    font-weight: bold;
+    color: #112a7e;
+}
+.text-two {
+    width: 90%;
+    margin: 3%;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 30px;
+    font-weight: bold;
+}
+.text-one {
+    width: 75%;
+    margin-right: 7%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 30px;
+    font-weight: bold;
+}
+.checkboxes {
+    display: flex;
+}
+.edit {
+    margin: 13px;
+}
+.pink-text {
+    color: #f24c62;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 10%;
+}
+.pal {
+    margin-left: -44px;
+}
+.checkboxes {
+    margin: 2%;
+    margin-left: 5%;
+}
+.w {
+    font-size: 22px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.we {
+    margin-left: 10px;
+}
+.last-time {
+   margin-left: 17%;
+   margin-top: -1%;
+}
